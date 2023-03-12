@@ -12,7 +12,7 @@ public class baseController {
     @GetMapping("/test")
     public ResponseEntity<BaseResponse<String>> test() {
         BaseResponse<String> response = new BaseResponse<>();
-        response.  ("First Step -- 17-1-2023");
+        response.setData("First Step -- 17-1-2023");
         return ResponseEntity.ok(response);
     }
 }
